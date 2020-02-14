@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: white;
+    line-height: normal;
+    overflow-x: hidden;
+    width: 100%; 
+    background-color: #180950;
+    padding: 15px;
+  }
+  section {
+    overflow-x: hidden; }
+  
+  *, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+  a, button {
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all; 
+    border: none; }
+  
+  p {
+    line-height: 1.75;
+    color: rgba(17, 15, 38, 0.6); }
+
+    .form_started input {
+        width: 100%;
+        height: 72px;
+        border-radius: 12px;
+        border: solid 1px rgba(17, 15, 38, 0.12);
+        font-family: Montserrat;
+        font-size: 16px;
+        color: rgba(17, 15, 38, 0.8);
+        padding: 37px 16px 16px; }
+      
+      .form_started .button_gradient {
+        color: #ffffff;
+        margin-top: 22px;
+        -webkit-box-shadow: 0 8px 8px -4px rgba(255, 47, 136, 0.48), 0 12px 32px 0 rgba(0, 194, 255, 0.48), 0 2px 4px -1px rgba(24, 9, 80, 0.48), 0 0 1px 0 rgba(0, 194, 255, 0.48);
+        box-shadow: 0 8px 8px -4px rgba(255, 47, 136, 0.48), 0 12px 32px 0 rgba(0, 194, 255, 0.48), 0 2px 4px -1px rgba(24, 9, 80, 0.48), 0 0 1px 0 rgba(0, 194, 255, 0.48);
+        background-image: -webkit-gradient(linear, left top, right top, from(#00c2ff), to(#ff2f88));
+        background-image: linear-gradient(to right, #00c2ff, #ff2f88), linear-gradient(to bottom, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06));
+        cursor: pointer; }
+        .form_started .button_gradient:hover {
+          -webkit-box-shadow: 0 12px 12px -4px #ff2f88, 0 16px 32px 4px rgba(0, 194, 255, 0.48), 0 8px 8px -1px #180950, 0 1px 1px 0 rgba(0, 194, 255, 0.48);
+          box-shadow: 0 12px 12px -4px #ff2f88, 0 16px 32px 4px rgba(0, 194, 255, 0.48), 0 8px 8px -1px #180950, 0 1px 1px 0 rgba(0, 194, 255, 0.48);
+          background-image: -webkit-gradient(linear, left top, right top, from(#00c2ff), color-stop(54%, #8f61ff), to(#ff2f88)), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.06)), to(rgba(255, 255, 255, 0.06)));
+          background-image: linear-gradient(to right, #00c2ff, #8f61ff 54%, #ff2f88), linear-gradient(to bottom, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)); }
+      
+      .form_started label {
+        color: rgba(17, 15, 38, 0.4);
+        font-size: 13px; }
+      
+      .form_started .form-input {
+        position: relative;
+        margin-bottom: 16px; }
+        .form_started .form-input label {
+          position: absolute;
+          top: 16px;
+          left: 16px; }
+form {
+    max-width: 480px;
+    width: 100%;
+    padding: 15px;
+    margin: 15px auto;
+}      
+.form_started .form-input label {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+.form_started input {
+    width: 100%;
+    height: 72px;
+    border-radius: 12px;
+    border: solid 1px rgba(17, 15, 38, 0.12);
+    font-family: Montserrat;
+    font-size: 16px;
+    color: rgba(17, 15, 38, 0.8);
+    padding: 37px 16px 16px;
+}
+.button_gradient {
+    display: inline-block;
+    padding: 25px 33px;
+    border-radius: 36px;
+    -webkit-box-shadow: 0 8px 8px -4px #180950, 0 12px 32px 4px rgba(0, 194, 255, 0.48), 0 4px 4px -1px #180950, 0 0 1px 0 rgba(0, 194, 255, 0.48);
+    box-shadow: 0 8px 8px -4px #180950, 0 12px 32px 4px rgba(0, 194, 255, 0.48), 0 4px 4px -1px #180950, 0 0 1px 0 rgba(0, 194, 255, 0.48);
+    /* border: solid 1px rgba(255, 255, 255, 0.24); */
+    background-image: -webkit-gradient(linear, left top, right top, from(#00c2ff), to(#ff2f88));
+    background-image: linear-gradient(to right, #00c2ff, #ff2f88), linear-gradient(to bottom, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06));
+    font-size: 18px;
+    font-weight: 600;
+}
+input {
+    outline: none;
+}
+h1 {
+    text-align: center;
+}
